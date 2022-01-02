@@ -24,7 +24,7 @@ namespace Design_Patterns_Assignment.Observer
             {
                 Console.WriteLine("Press A to Add observer");
                 Console.WriteLine("Press R to Remove observer");
-                Console.WriteLine("Press U to Update observer\n");
+                Console.WriteLine("Press U to Update observer");
                 Console.WriteLine("Press X to Exit Program\n");
 
                 var userInput = Console.ReadKey(true).KeyChar;
